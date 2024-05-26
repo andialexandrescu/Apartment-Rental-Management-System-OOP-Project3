@@ -117,7 +117,19 @@ FetchContent_MakeAvailable(googletest)
 ###############################################################################
 
 # NOTE: update executable name in .github/workflows/cmake.yml:25 when changing name here
-add_executable(${PROJECT_NAME} main.cpp ${SOURCES})
+add_executable(${PROJECT_NAME} main.cpp ${SOURCES}
+        include/Apartment.h
+        include/User.h
+        include/Reservation.h
+        include/SearchEngine.h
+        include/Layout.h
+        include/RoomLayout.h
+        include/ApartmentLayout.h
+        include/RoomBuilder.h
+        include/Post.h
+        include/ApartmentListingPost.h
+        include/VacationPackagePost.h
+        include/PackageType.h)
 
 ###############################################################################
 
@@ -174,6 +186,19 @@ add_executable(
         ${HEADERS}
         ${TESTS}
         ${SOURCES}
+        src/Apartment.cpp
+        src/User.cpp
+        src/Reservation.cpp
+        src/SearchEngine.cpp
+        src/Layout.cpp
+        src/RoomLayout.cpp
+        src/ApartmentLayout.cpp
+        src/RoomBuilder.cpp
+        src/PackageType.cpp
+        test/example/example_test2.cpp
+        test/example/example_test3.cpp
+        test/example/example_test4.cpp
+        test/example/example_test8.cpp
 )
 
 target_link_libraries(
