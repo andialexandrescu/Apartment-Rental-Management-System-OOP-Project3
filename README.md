@@ -123,9 +123,9 @@ Nerespectarea duce la nepunctarea proiectului
 - Design Patterns (2p)
   - [x] utilizarea a două șabloane de proiectare
 - Prezentare sapt 13(4p)
-  - [ ] răspunsuri la întrebări din cod / generale C++
-  - [ ] explicarea a unei alte structuri sau a altui algoritm neutilizat (STL)
-  - [ ] explicarea a altor două șabloane de proiectare
+  - [x] răspunsuri la întrebări din cod / generale C++
+  - [x] explicarea a unei alte structuri sau a altui algoritm neutilizat (STL)
+  - [x] explicarea a altor două șabloane de proiectare
 
 
 ## Recomandare Tema
